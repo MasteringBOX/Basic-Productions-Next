@@ -5,18 +5,19 @@ import TopImageRow from '../components/top-image-row'
 import PlayList from '../components/play-list'
 import BottomImageRow from '../components/bottom-image-row'
 import MusicPlayer from "../components/musicPlayer";
+import AudioPlayer from "../components/AudioPlayer";
 
 const Escuchanos = (props) => {
   return (
     <>
       <div className="escuchanos-container">
         <Head>
-          <title>Escuchanos - Basic Productions</title>
+          <title>Escúchanos - Basic Productions</title>
           <meta property="og:title" content="Escuchanos - Basic Productions" />
         </Head>
         <div className="escuchanos-container1 mainContainer">
           <TopImageRow rootClassName="top-image-row-root-class-name5"></TopImageRow>
-          <PlayList><MusicPlayer/></PlayList>
+          <PlayList><AudioPlayer/></PlayList>
           <BottomImageRow rootClassName="bottom-image-row-root-class-name5"></BottomImageRow>
         </div>
       </div>
@@ -32,7 +33,6 @@ const Escuchanos = (props) => {
             justify-content: flex-start;
           }
           .escuchanos-container1 {
-            gap: var(--dl-space-space-twounits);
             height: fit-content;
           }
         `}
