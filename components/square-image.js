@@ -12,7 +12,7 @@ const SquareImage = (props) => {
           width={0}
           height={0}
           sizes="(max-width: 479px) 50vw,
-              25vw"
+              10vw"
           style={{ width: '100%', height: '100%'}}
           className="homeImage"
         />
