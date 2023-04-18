@@ -247,6 +247,9 @@
   text-decoration: none;
 }
 @media(max-width: 1200px) {
+  .imageTitle {
+    font-size: 1em;
+  }
   .content {
     width: 100%;
   }
@@ -260,7 +263,7 @@
     padding: 50px;
   }
   .imageTitle {
-    opactity: 1;
+    opacity: 1;
     font-size: 0.8em;
   }
 }
@@ -287,7 +290,7 @@
     justify-content: flex-start;
   }
   .imageTitle {
-    font-size: 1em;
+    font-size: 0.8em;
   }
   .subContainerContent {
     width: 50%;

@@ -140,22 +140,21 @@ const OtrosServicios = (props) => {
             </div>
             <div className="otros-servicios-features1">
               <h2 className="otros-servicios-text43 SubTitle">Locuciones</h2>
-              <span>
-                <span>
-                  Disponemos de más opciones para grabar otro tipo de proyectos
-                  vocales. Si tu opción no aparece, ¡preguntanos!
-                </span>
-                <br></br>
+              <span className="otros-servicios-text44">
+                Nos encargamos de todo tipo de Cuñas publicitarias, jingles,
+                logos sonoros, doblaje, voces en off, traducciones, etc.
+                Disponemos de una amplia red de locutores en diferentes idiomas
+                y con distinos registros vocales. Tienes donde elegir.
               </span>
               <div className="otros-servicios-container7">
                 <FeatureCard
-                  title="Karaoke Star"
-                  description="Si te gusta cantar y quieres grabar tu canción favorita con un sonido profesional, esta es tu oportunidad.  Puedes traernos la base musical de la canción o pídenosla y nosotros te la proporcionaremos."
+                  title="Cuñas"
+                  description="Cuñas de radio, spots de TV, jingles y cualquier otro tipo de locucion con o sin musica"
                   rootClassName="rootClassName26"
                 ></FeatureCard>
                 <FeatureCard
-                  title="Hip Hop / Rap"
-                  description="Si quieres grabar tu voz sobre una base hip-hop con un sonido profesional, aquí puedes hacerlo.Incluye la grabación de coros, inserción de efectos, etc.Puedes traernos tu base o elegir una de las que tenemos en nuestro repertorio."
+                  title="Locuciones en off"
+                  description="Grabaciones profesionales para cursos, audiolibros, contestadores, megafonía, etc."
                   rootClassName="rootClassName27"
                 ></FeatureCard>
               </div>
@@ -200,6 +199,9 @@ const OtrosServicios = (props) => {
           }
           .otros-servicios-text04 {
             margin-bottom: 0px;
+          }
+          .otros-servicios-text05 {
+            text-align: justify;
           }
           .otros-servicios-container3 {
             width: 100%;
@@ -355,6 +357,9 @@ const OtrosServicios = (props) => {
             .otros-servicios-container2 {
               width: 100%;
             }
+            .otros-servicios-text05 {
+              text-align: justify;
+            }
             .otros-servicios-text18 {
               text-align: center;
             }
@@ -381,6 +386,9 @@ const OtrosServicios = (props) => {
             }
             .otros-servicios-text39 {
               text-align: center;
+            }
+            .otros-servicios-text44 {
+              text-align: justify;
             }
           }
           @media (max-width: 767px) {
