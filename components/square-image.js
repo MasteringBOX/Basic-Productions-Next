@@ -36,7 +36,7 @@ const SquareImage = (props) => {
 SquareImage.defaultProps = {
   image_alt: 'image',
   rootClassName: '',
-  image_src: '/playground_assets/microphone_2-800w.jpg',
+  image_src: '/playground_assets/microphone_2.jpg',
 }
 
 SquareImage.propTypes = {

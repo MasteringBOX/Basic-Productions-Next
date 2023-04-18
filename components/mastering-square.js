@@ -12,7 +12,7 @@ const MasteringSquare = (props) => {
         <a>
           <div className="mastering-square-container subContainerContent">
             <SquareImage
-              image_src="/playground_assets/limiter_compressed-800w.jpg"
+              image_src="/playground_assets/limiter_compressed.jpg"
               rootClassName="square-image-root-class-name2"
             ></SquareImage>
           </div>
