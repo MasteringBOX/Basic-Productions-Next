@@ -14,9 +14,9 @@ const GallerySquare = (props) => {
             className={`gallery-square-container subContainerContent ${props.rootClassName} `}
           >
             <SquareImage
-              image_src="/playground_assets/studio-200h.jpg"
-              rootClassName="square-image-root-class-name8"
               heading="Galería"
+              image_src="/playground_assets/estudioweb3.jpg"
+              rootClassName="square-image-root-class-name8"
             ></SquareImage>
           </div>
         </a>
