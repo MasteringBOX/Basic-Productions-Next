@@ -4,7 +4,6 @@ import Head from 'next/head'
 import TopImageRow from '../components/top-image-row'
 import PlayList from '../components/play-list'
 import BottomImageRow from '../components/bottom-image-row'
-import MusicPlayer from "../components/musicPlayer";
 import AudioPlayer from "../components/AudioPlayer";
 
 const Escuchanos = (props) => {
