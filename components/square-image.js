@@ -1,14 +1,18 @@
 import React from 'react'
-
+import Image from 'next/image'
 import PropTypes from 'prop-types'
 
 const SquareImage = (props) => {
   return (
     <>
       <div className={`square-image-container ${props.rootClassName} `}>
-        <img
+        <Image
           alt={props.image_alt}
           src={props.image_src}
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{ width: '100%', height: '100%'}}
           className="homeImage"
         />
       </div>

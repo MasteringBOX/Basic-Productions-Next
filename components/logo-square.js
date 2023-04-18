@@ -14,7 +14,7 @@ const LogoSquare = (props) => {
             className={`logo-square-container subContainerContent ${props.rootClassName} `}
           >
             <SquareImage
-              image_src="/playground_assets/basicproductionslogo-200h.jpg"
+              image_src="/playground_assets/basicproductionslogo-800w.jpg"
               rootClassName="square-image-root-class-name6"
             ></SquareImage>
           </div>
