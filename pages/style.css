@@ -106,6 +106,7 @@
   display: flex;
   padding: 100px;
   position: relative;
+  max-width: 1600px;
   align-items: center;
   flex-direction: column;
   justify-content: center;

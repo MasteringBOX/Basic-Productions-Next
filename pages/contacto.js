@@ -15,7 +15,7 @@ const Contacto = (props) => {
         </Head>
         <div className="contacto-container1 mainContainer">
           <TopImageRow rootClassName="top-image-row-root-class-name3"></TopImageRow>
-          <Contact></Contact>
+          <Contact rootClassName="contact-root-class-name1"></Contact>
           <BottomImageRow rootClassName="bottom-image-row-root-class-name3"></BottomImageRow>
         </div>
       </div>

@@ -149,7 +149,6 @@ const Grupos = (props) => {
           .grupos-container2 {
             gap: 0;
             flex-wrap: wrap;
-            align-items: flex-start;
             flex-direction: column;
             padding-bottom: 0px;
             justify-content: flex-start;

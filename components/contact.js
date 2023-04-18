@@ -225,6 +225,9 @@ const Contact = (props) => {
             margin-right: var(--dl-space-space-doubleunit);
           }
 
+          .contact-root-class-name1 {
+            max-width: auto;
+          }
           @media (max-width: 991px) {
             .contact-contact {
               flex-direction: row;
