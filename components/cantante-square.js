@@ -16,6 +16,7 @@ const CantanteSquare = (props) => {
             <SquareImage
               image_src="/playground_assets/singer.jpg"
               rootClassName="square-image-root-class-name5"
+              heading="Cantantes"
             ></SquareImage>
           </div>
         </a>

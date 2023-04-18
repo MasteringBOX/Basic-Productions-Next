@@ -13,64 +13,64 @@ const Gallery = (props) => {
         <div className="image4x subContainerContent">
           <div className="galleryImageSmall">
             <SquareImage
-              image_src="/playground_assets/estudioweb03-200h.jpg"
+              image_src="/playground_assets/estudioweb03.jpg"
               rootClassName="square-image-root-class-name11"
             ></SquareImage>
           </div>
           <div className="galleryImageSmall">
             <SquareImage
-              image_src="/playground_assets/estudioweb01-200h.jpg"
+              image_src="/playground_assets/estudioweb01.jpg"
               rootClassName="square-image-root-class-name12"
             ></SquareImage>
           </div>
           <div className="galleryImageSmall">
             <SquareImage
-              image_src="/playground_assets/estudioweb04-200h.jpg"
+              image_src="/playground_assets/estudioweb04.jpg"
               rootClassName="square-image-root-class-name14"
             ></SquareImage>
           </div>
           <div className="galleryImageSmall">
             <SquareImage
-              image_src="/playground_assets/estudioweb07-200h.jpg"
+              image_src="/playground_assets/estudioweb07.jpg"
               rootClassName="square-image-root-class-name15"
             ></SquareImage>
           </div>
         </div>
         <div className="image4x subContainerContent">
           <SquareImage
-            image_src="/playground_assets/estudio102-200h.jpg"
+            image_src="/playground_assets/estudio102.jpg"
             rootClassName="square-image-root-class-name13"
           ></SquareImage>
         </div>
         <div className="gallery-container07">
           <div className="image4x subContainerContent">
             <SquareImage
-              image_src="/playground_assets/estudioweb161-200h.jpg"
+              image_src="/playground_assets/estudioweb161.jpg"
               rootClassName="square-image-root-class-name20"
             ></SquareImage>
           </div>
           <div className="image4x subContainerContent">
             <div className="galleryImageSmall">
               <SquareImage
-                image_src="/playground_assets/estudioweb05-200h.jpg"
+                image_src="/playground_assets/estudioweb05.jpg"
                 rootClassName="square-image-root-class-name16"
               ></SquareImage>
             </div>
             <div className="galleryImageSmall">
               <SquareImage
-                image_src="/playground_assets/estudioweb02-200h.jpg"
+                image_src="/playground_assets/estudioweb02.jpg"
                 rootClassName="square-image-root-class-name17"
               ></SquareImage>
             </div>
             <div className="galleryImageSmall">
               <SquareImage
-                image_src="/playground_assets/estudioweb08-200h.jpg"
+                image_src="/playground_assets/estudioweb08.jpg"
                 rootClassName="square-image-root-class-name18"
               ></SquareImage>
             </div>
             <div className="galleryImageSmall">
               <SquareImage
-                image_src="/playground_assets/estudioweb15-200h.jpg"
+                image_src="/playground_assets/estudioweb15.jpg"
                 rootClassName="square-image-root-class-name19"
               ></SquareImage>
             </div>

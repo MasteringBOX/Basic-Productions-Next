@@ -16,6 +16,7 @@ const HeadphonesSquare = (props) => {
             <SquareImage
               image_src="/playground_assets/headphones.jpg"
               rootClassName="square-image-root-class-name9"
+              heading="Escúcha"
             ></SquareImage>
           </div>
         </a>

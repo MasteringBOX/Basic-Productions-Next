@@ -13,6 +13,7 @@ const BandSquare = (props) => {
           <SquareImage
             image_src="/playground_assets/rock_band_2.jpg"
             rootClassName="square-image-root-class-name1"
+            heading="Grupos"
           ></SquareImage>
         </div>
       </a>

@@ -16,6 +16,7 @@ const GallerySquare = (props) => {
             <SquareImage
               image_src="/playground_assets/studio-200h.jpg"
               rootClassName="square-image-root-class-name8"
+              heading="Galería"
             ></SquareImage>
           </div>
         </a>

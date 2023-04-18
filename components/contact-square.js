@@ -16,6 +16,7 @@ const ContactSquare = (props) => {
             <SquareImage
               image_src="/playground_assets/telephone.jpg"
               rootClassName="square-image-root-class-name7"
+              heading="Contacta"
             ></SquareImage>
           </div>
         </a>
