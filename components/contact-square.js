@@ -14,7 +14,7 @@ const ContactSquare = (props) => {
             className={`contact-square-container subContainerContent ${props.rootClassName} `}
           >
             <SquareImage
-              image_src="/playground_assets/telephone-200h.jpg"
+              image_src="/playground_assets/telephone.jpg"
               rootClassName="square-image-root-class-name7"
             ></SquareImage>
           </div>

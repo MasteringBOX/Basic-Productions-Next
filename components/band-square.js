@@ -11,7 +11,7 @@ const BandSquare = (props) => {
       <a>
         <div className="subContainerContent">
           <SquareImage
-            image_src="/playground_assets/rock_band_2-200h.jpg"
+            image_src="/playground_assets/rock_band_2.jpg"
             rootClassName="square-image-root-class-name1"
           ></SquareImage>
         </div>

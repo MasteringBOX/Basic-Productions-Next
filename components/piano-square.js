@@ -14,7 +14,7 @@ const PianoSquare = (props) => {
             className={`piano-square-container subContainerContent ${props.rootClassName} `}
           >
             <SquareImage
-              image_src="/playground_assets/bruno-croci-5easpnnjwyq-unsplash%20%5B1%5D%20%5B1%5D-200h.jpg"
+              image_src="/playground_assets/bruno-croci-5easpnnjwyq-unsplash%20%5B1%5D%20%5B1%5D.jpg"
               rootClassName="square-image-root-class-name10"
             ></SquareImage>
           </div>
