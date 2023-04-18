@@ -7,18 +7,7 @@ const PlayList = (props) => {
       <style jsx>
         {`
           .play-list-container {
-            gap: 0;
-            position: relative;
-            flex-wrap: wrap;
-            align-items: flex-start;
-            flex-direction: column;
-            padding-bottom: 0px;
-            justify-content: flex-start;
-          }
-          @media (max-width: 991px) {
-            .play-list-container {
-              width: 100%;
-            }
+            width: 100%;
           }
         `}
       </style>
