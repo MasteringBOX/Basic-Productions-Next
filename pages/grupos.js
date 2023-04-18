@@ -164,6 +164,9 @@ const Grupos = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             flex-direction: column;
           }
+          .grupos-text01 {
+            text-align: justify;
+          }
           .grupos-container3 {
             width: 100%;
             display: grid;
@@ -300,6 +303,9 @@ const Grupos = (props) => {
           @media (max-width: 991px) {
             .grupos-container2 {
               width: 100%;
+            }
+            .grupos-text01 {
+              text-align: justify;
             }
             .grupos-text09 {
               text-align: center;

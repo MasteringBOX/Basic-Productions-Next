@@ -18,8 +18,7 @@ const Cantantes = (props) => {
           <div className="cantantes-container2 content">
             <h1 className="cantantes-text PageHeading">CANTANTES</h1>
             <div className="cantantes-features">
-              <h2 className="cantantes-text01 SubTitle">Cantautores</h2>
-              <span className="cantantes-text02">
+              <span className="cantantes-text01">
                 <span>
                   Ofrecemos un arreglo instrumental completo de tus temas
                   partiendo de una línea melódica vocal. Los arreglos los
@@ -50,15 +49,15 @@ const Cantantes = (props) => {
               </div>
             </div>
             <div className="cantantes-steps">
-              <h1 className="cantantes-text08">¿Como Funciona?</h1>
+              <h1 className="cantantes-text07">¿Como Funciona?</h1>
               <div className="cantantes-container4">
                 <div className="cantantes-container5">
                   <div className="step">
-                    <h1 className="cantantes-text09">
+                    <h1 className="cantantes-text08">
                       <span>1</span>
                     </h1>
-                    <h1 className="cantantes-text11">Concepto</h1>
-                    <span className="cantantes-text12">
+                    <h1 className="cantantes-text10">Concepto</h1>
+                    <span className="cantantes-text11">
                       <span>
                         Nos enseñas tu canción como la tengas. Aunque la cantes
                         acapella. Mientras tengas una letra y una melodía vocal
@@ -69,11 +68,11 @@ const Cantantes = (props) => {
                     </span>
                   </div>
                   <div className="step cantantes-step1">
-                    <h1 className="cantantes-text15">
+                    <h1 className="cantantes-text14">
                       <span>2</span>
                     </h1>
-                    <h1 className="cantantes-text17">Creación</h1>
-                    <span className="cantantes-text18">
+                    <h1 className="cantantes-text16">Creación</h1>
+                    <span className="cantantes-text17">
                       <span>
                         Con la melodía vocal sacamos los acordes y afiamos la
                         estructura de la canción para que funcione con el estilo
@@ -86,11 +85,11 @@ const Cantantes = (props) => {
                 </div>
                 <div className="cantantes-container6">
                   <div className="step cantantes-step2">
-                    <h1 className="cantantes-text21">
+                    <h1 className="cantantes-text20">
                       <span>3</span>
                     </h1>
-                    <h1 className="cantantes-text23">Grabación</h1>
-                    <span className="cantantes-text24">
+                    <h1 className="cantantes-text22">Grabación</h1>
+                    <span className="cantantes-text23">
                       <span>
                         Grabamos todos los instrumentos uno a uno. Puedes estar
                         presente en todo el proceso de grabación y ser parte de
@@ -101,11 +100,11 @@ const Cantantes = (props) => {
                     </span>
                   </div>
                   <div className="step cantantes-step3">
-                    <h1 className="cantantes-text27">
+                    <h1 className="cantantes-text26">
                       <span>4</span>
                     </h1>
-                    <h1 className="cantantes-text29">Finalización</h1>
-                    <span className="cantantes-text30">
+                    <h1 className="cantantes-text28">Finalización</h1>
+                    <span className="cantantes-text29">
                       <span>
                         Una vez grabado todo se hacen los retoques finales al
                         tema. Se exporta la mezcla final y se hace la
@@ -118,8 +117,8 @@ const Cantantes = (props) => {
               </div>
             </div>
             <div className="cantantes-features1">
-              <h2 className="cantantes-text33 SubTitle">Más Servicios</h2>
-              <span>
+              <h2 className="cantantes-text32 SubTitle">Más Servicios</h2>
+              <span className="cantantes-text33">
                 <span>
                   Disponemos de más opciones para grabar otro tipo de proyectos
                   vocales. Si tu opción no aparece, ¡preguntanos!
@@ -178,7 +177,7 @@ const Cantantes = (props) => {
             flex-direction: column;
           }
           .cantantes-text01 {
-            margin-bottom: 0px;
+            text-align: justify;
           }
           .cantantes-container3 {
             width: 100%;
@@ -194,7 +193,7 @@ const Cantantes = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .cantantes-text08 {
+          .cantantes-text07 {
             color: var(--dl-color-gray-black);
             font-size: 2.5rem;
             margin-bottom: var(--dl-space-space-unit);
@@ -210,35 +209,35 @@ const Cantantes = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .cantantes-text09 {
+          .cantantes-text08 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .cantantes-text11 {
+          .cantantes-text10 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .cantantes-text12 {
+          .cantantes-text11 {
             color: var(--dl-color-gray-500);
             font-size: 0.75rem;
             margin-top: var(--dl-space-space-oneandhalfunits);
             text-align: justify;
           }
-          .cantantes-text15 {
+          .cantantes-text14 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .cantantes-text17 {
+          .cantantes-text16 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .cantantes-text18 {
+          .cantantes-text17 {
             color: var(--dl-color-gray-500);
             font-size: 0.75rem;
             margin-top: var(--dl-space-space-oneandhalfunits);
@@ -250,35 +249,35 @@ const Cantantes = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .cantantes-text21 {
+          .cantantes-text20 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .cantantes-text23 {
+          .cantantes-text22 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .cantantes-text24 {
+          .cantantes-text23 {
             color: var(--dl-color-gray-500);
             font-size: 0.75rem;
             margin-top: var(--dl-space-space-oneandhalfunits);
             text-align: justify;
           }
-          .cantantes-text27 {
+          .cantantes-text26 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .cantantes-text29 {
+          .cantantes-text28 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .cantantes-text30 {
+          .cantantes-text29 {
             color: var(--dl-color-gray-500);
             font-size: 0.75rem;
             margin-top: var(--dl-space-space-oneandhalfunits);
@@ -292,7 +291,7 @@ const Cantantes = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             flex-direction: column;
           }
-          .cantantes-text33 {
+          .cantantes-text32 {
             margin-bottom: 0px;
           }
           .cantantes-container7 {
@@ -302,30 +301,30 @@ const Cantantes = (props) => {
             grid-template-columns: 1fr 1fr;
           }
           @media (max-width: 1200px) {
-            .cantantes-text11 {
+            .cantantes-text10 {
               font-size: 1.15rem;
               font-weight: 500;
             }
-            .cantantes-text17 {
+            .cantantes-text16 {
               font-size: 1.15rem;
               align-self: center;
               text-align: center;
               font-weight: 500;
             }
-            .cantantes-text18 {
+            .cantantes-text17 {
               color: var(--dl-color-gray-500);
               font-size: 0.75rem;
             }
-            .cantantes-text24 {
+            .cantantes-text23 {
               color: var(--dl-color-gray-500);
               font-size: 0.75rem;
             }
-            .cantantes-text29 {
+            .cantantes-text28 {
               font-size: 1.15rem;
               text-align: center;
               font-weight: 500;
             }
-            .cantantes-text30 {
+            .cantantes-text29 {
               color: var(--dl-color-gray-500);
               font-size: 0.75rem;
             }
@@ -334,32 +333,38 @@ const Cantantes = (props) => {
             .cantantes-container2 {
               width: 100%;
             }
+            .cantantes-text01 {
+              text-align: justify;
+            }
+            .cantantes-text07 {
+              text-align: center;
+            }
             .cantantes-text08 {
               text-align: center;
             }
-            .cantantes-text09 {
+            .cantantes-text10 {
               text-align: center;
             }
-            .cantantes-text11 {
+            .cantantes-text14 {
               text-align: center;
             }
-            .cantantes-text15 {
+            .cantantes-text16 {
               text-align: center;
             }
-            .cantantes-text17 {
+            .cantantes-text20 {
               text-align: center;
             }
-            .cantantes-text21 {
+            .cantantes-text22 {
               text-align: center;
             }
-            .cantantes-text23 {
+            .cantantes-text26 {
               text-align: center;
             }
-            .cantantes-text27 {
+            .cantantes-text28 {
               text-align: center;
             }
-            .cantantes-text29 {
-              text-align: center;
+            .cantantes-text33 {
+              text-align: justify;
             }
           }
           @media (max-width: 767px) {
@@ -407,7 +412,7 @@ const Cantantes = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .cantantes-text02 {
+            .cantantes-text01 {
               text-align: justify;
             }
             .cantantes-steps {
