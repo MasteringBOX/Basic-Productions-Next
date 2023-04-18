@@ -11,7 +11,7 @@ const SquareImage = (props) => {
           src={props.image_src}
           className="homeImage"
         />
-        <div className="square-image-container1 imageTitle">
+        <div className="imageTitle square-image-container1">
           <h1 className="square-image-text">{props.heading}</h1>
         </div>
       </div>
@@ -20,13 +20,11 @@ const SquareImage = (props) => {
           .square-image-container {
             position: relative;
           }
-          .square-image-container1 {
-            transition: 0.3s;
-          }
           .square-image-container1:hover {
-            visibility: visible;
+            opacity: 1;
           }
           .square-image-text {
+            opacity: inherit;
             text-transform: uppercase;
           }
           .square-image-root-class-name {
