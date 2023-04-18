@@ -14,9 +14,9 @@ const HeadphonesSquare = (props) => {
             className={`headphones-square-container subContainerContent ${props.rootClassName} `}
           >
             <SquareImage
+              heading="Escúcha"
               image_src="/playground_assets/headphones.jpg"
               rootClassName="square-image-root-class-name9"
-              heading="Escúcha"
             ></SquareImage>
           </div>
         </a>

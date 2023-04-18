@@ -31,7 +31,6 @@ const Escuchanos = (props) => {
             justify-content: flex-start;
           }
           .escuchanos-container1 {
-            gap: var(--dl-space-space-twounits);
             height: fit-content;
           }
         `}
