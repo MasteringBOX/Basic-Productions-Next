@@ -96,14 +96,13 @@ const AudioPlayer = () => {
 
             //document.getElementById('large-visualization').style.height = document.getElementById('album-art').offsetWidth + 'px';
 
+            // Add beforeunload event listener to stop playback when leaving the page
             return () => {
-                // Clean up on component unmount
-                const amplitudePlayer = document.getElementById('amplitude-player');
+                Amplitude.stop();
+                const amplitudePlayer = document.getElementById("amplitude-player");
                 amplitudePlayer && amplitudePlayer.remove();
             };
         }, []);
-
-
 
 
 
