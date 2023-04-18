@@ -4,6 +4,7 @@ import Head from 'next/head'
 import TopImageRow from '../components/top-image-row'
 import PlayList from '../components/play-list'
 import BottomImageRow from '../components/bottom-image-row'
+import MusicPlayer from "../components/musicPlayer";
 
 const Escuchanos = (props) => {
   return (
@@ -15,7 +16,7 @@ const Escuchanos = (props) => {
         </Head>
         <div className="escuchanos-container1 mainContainer">
           <TopImageRow rootClassName="top-image-row-root-class-name5"></TopImageRow>
-          <PlayList></PlayList>
+          <PlayList><MusicPlayer/></PlayList>
           <BottomImageRow rootClassName="bottom-image-row-root-class-name5"></BottomImageRow>
         </div>
       </div>

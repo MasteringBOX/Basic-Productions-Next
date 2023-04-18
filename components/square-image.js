@@ -23,6 +23,7 @@ const SquareImage = (props) => {
         {`
           .square-image-container {
             position: relative;
+            margin: 4px;
           }
           .square-image-container1:hover {
             opacity: 1;
@@ -30,16 +31,6 @@ const SquareImage = (props) => {
           .square-image-text {
             opacity: inherit;
             text-transform: uppercase;
-          }
-          .square-image-root-class-name {
-            opacity: 0.5;
-          }
-
-          .square-image-root-class-name3 {
-            opacity: 1;
-          }
-          .square-image-root-class-name4 {
-            opacity: 0.5;
           }
         `}
       </style>
