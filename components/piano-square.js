@@ -16,6 +16,7 @@ const PianoSquare = (props) => {
             <SquareImage
               image_src="/playground_assets/bruno-croci-5easpnnjwyq-unsplash%20%5B1%5D%20%5B1%5D.jpg"
               rootClassName="square-image-root-class-name10"
+              heading="Más servicios"
             ></SquareImage>
           </div>
         </a>

@@ -110,7 +110,7 @@ const Contact = (props) => {
             padding-bottom: var(--dl-space-space-fourunits);
             background-size: cover;
             justify-content: space-between;
-            background-image: url('/playground_assets/mapabasicproductions-1500w.jpg');
+            background-image: url('/playground_assets/mapabasicproductions.jpg');
             scroll-margin-top: 80px;
             background-position: center;
           }
