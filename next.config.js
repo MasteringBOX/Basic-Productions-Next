@@ -51,6 +51,11 @@ module.exports = {
                 destination: '/otros-servicios-de-grabacion',
                 permanent: true,
             },
+            {
+                source: '/composicionmusical.html',
+                destination: '/otros-servicios-de-grabacion',
+                permanent: true,
+            },
 
             // add more objects for other redirects
         ];
