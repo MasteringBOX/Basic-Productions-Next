@@ -8,7 +8,7 @@ import SquareImage from './square-image'
 const MasteringSquare = (props) => {
   return (
     <>
-      <Link href="/masterizacion-de-audio">
+      <Link href="/masterizacin-de-audio">
         <a>
           <div className="mastering-square-container subContainerContent">
             <SquareImage

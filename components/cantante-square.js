@@ -8,7 +8,7 @@ import SquareImage from './square-image'
 const CantanteSquare = (props) => {
   return (
     <>
-      <Link href="/produccion-musical-para-cantantes">
+      <Link href="/produccin-musical-para-cantantes">
         <a>
           <div
             className={`cantante-square-container subContainerContent ${props.rootClassName} `}
