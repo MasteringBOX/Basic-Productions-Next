@@ -55,7 +55,7 @@ const AudioPlayer = () => {
         },
         {
             "name": "Perdóname",
-            "artist": "Adriana Moraru",
+            "artist": "Adriana Moraru feat. Flavy Mo",
             "album": "Perdóname",
             "url": "/audio/perdoname.m4a",
             "cover_art_url": "/img/adriana.jpg",
