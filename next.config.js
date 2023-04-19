@@ -2,6 +2,11 @@ module.exports = {
     async redirects() {
         return [
             {
+                source: '/index.html',
+                destination: '/',
+                permanent: true,
+            },
+            {
                 source: '/contactoestudiodegrabacion.html',
                 destination: '/contacto-estudio',
                 permanent: true,
@@ -18,6 +23,11 @@ module.exports = {
             },
             {
                 source: '/produccionmusical.html',
+                destination: '/produccion-musical-para-cantantes',
+                permanent: true,
+            },
+            {
+                source: '/comograbarunacancion.html',
                 destination: '/produccion-musical-para-cantantes',
                 permanent: true,
             },

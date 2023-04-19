@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "export": "next export"
   },
@@ -15,6 +16,7 @@
     "@lottiefiles/lottie-player": "1.6.0",
     "next": "^12.1.0",
     "next-images": "^1.8.5",
+    "next-sitemap": "^4.0.7",
     "next-transpile-modules": "^10.0.0",
     "prop-types": "15.7.2",
     "react": "^17.0.2",

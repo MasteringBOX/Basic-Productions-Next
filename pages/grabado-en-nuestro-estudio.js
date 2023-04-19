@@ -4,21 +4,22 @@ import Head from 'next/head'
 import TopImageRow from '../components/top-image-row'
 import PlayList from '../components/play-list'
 import BottomImageRow from '../components/bottom-image-row'
+import AudioPlayer from "../components/AudioPlayer";
 
 const GrabadoEnNuestroEstudio = (props) => {
   return (
     <>
       <div className="grabado-en-nuestro-estudio-container">
         <Head>
-          <title>Grabado-en-Nuestro-Estudio - Basic Productions</title>
+          <title>Grabado en Nuestro Estudio - Basic Productions</title>
           <meta
             property="og:title"
-            content="Grabado-en-Nuestro-Estudio - Basic Productions"
+            content="Grabado en Nuestro Estudio - Basic Productions"
           />
         </Head>
         <div className="grabado-en-nuestro-estudio-container1 mainContainer">
           <TopImageRow rootClassName="top-image-row-root-class-name5"></TopImageRow>
-          <PlayList></PlayList>
+          <AudioPlayer/>
           <BottomImageRow rootClassName="bottom-image-row-root-class-name5"></BottomImageRow>
         </div>
       </div>
