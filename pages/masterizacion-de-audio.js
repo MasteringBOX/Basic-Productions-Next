@@ -10,10 +10,10 @@ const MasterizacionDeAudio = (props) => {
     <>
       <div className="masterizacion-de-audio-container">
         <Head>
-          <title>masterizacion-de-audio - Basic Productions</title>
+          <title>Masterizacion-de-Audio - Basic Productions</title>
           <meta
             property="og:title"
-            content="masterizacion-de-audio - Basic Productions"
+            content="Masterizacion-de-Audio - Basic Productions"
           />
         </Head>
         <div className="masterizacion-de-audio-container1 mainContainer">
