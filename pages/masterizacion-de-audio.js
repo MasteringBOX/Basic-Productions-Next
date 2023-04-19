@@ -372,7 +372,8 @@ const MasterizacionDeAudio = (props) => {
           }
           @media (max-width: 479px) {
             .masterizacion-de-audio-text {
-              font-size: 2.5em;
+              font-size: 2.2em;
+              max-width: 100%;
             }
             .masterizacion-de-audio-features {
               padding-top: var(--dl-space-space-twounits);
