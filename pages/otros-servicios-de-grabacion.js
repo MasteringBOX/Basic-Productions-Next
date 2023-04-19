@@ -19,16 +19,15 @@ const OtrosServiciosDeGrabacion = (props) => {
         <div className="otros-servicios-de-grabacion-container1 mainContainer">
           <TopImageRow rootClassName="top-image-row-root-class-name6"></TopImageRow>
           <div className="otros-servicios-de-grabacion-container2 content">
-            <h1 className="otros-servicios-de-grabacion-text PageHeading">
-              <span>OTROS </span>
-              <span>SERVICIOS</span>
+            <h1 className="otros-servicios-de-grabacion-heading PageHeading">
+              <span>OTROS SERVICIOS</span>
               <br></br>
             </h1>
             <div className="otros-servicios-de-grabacion-features">
-              <h2 className="otros-servicios-de-grabacion-text04 SubTitle">
+              <h2 className="otros-servicios-de-grabacion-text02 SubTitle">
                 Composición
               </h2>
-              <span className="otros-servicios-de-grabacion-text05">
+              <span className="otros-servicios-de-grabacion-text03">
                 <span>
                   Creamos tu tema desde cero, letra y música para prácticamente
                   cualquier genero musical.
@@ -73,19 +72,19 @@ const OtrosServiciosDeGrabacion = (props) => {
               </div>
             </div>
             <div className="otros-servicios-de-grabacion-steps">
-              <h1 className="otros-servicios-de-grabacion-text18">
+              <h1 className="otros-servicios-de-grabacion-text16">
                 ¿Como Funciona?
               </h1>
               <div className="otros-servicios-de-grabacion-container4">
                 <div className="otros-servicios-de-grabacion-container5">
                   <div className="step">
-                    <h1 className="otros-servicios-de-grabacion-text19">
+                    <h1 className="otros-servicios-de-grabacion-text17">
                       <span>1</span>
                     </h1>
-                    <h1 className="otros-servicios-de-grabacion-text21">
+                    <h1 className="otros-servicios-de-grabacion-text19">
                       Concepto
                     </h1>
-                    <span className="otros-servicios-de-grabacion-text22">
+                    <span className="otros-servicios-de-grabacion-text20">
                       <span>
                         Nos explicas tu idea de canción y el estilo musical que
                         deseas con algunos ejemplos. Normalmente el cliente
@@ -96,13 +95,13 @@ const OtrosServiciosDeGrabacion = (props) => {
                     </span>
                   </div>
                   <div className="step otros-servicios-de-grabacion-step1">
-                    <h1 className="otros-servicios-de-grabacion-text25">
+                    <h1 className="otros-servicios-de-grabacion-text23">
                       <span>2</span>
                     </h1>
-                    <h1 className="otros-servicios-de-grabacion-text27">
+                    <h1 className="otros-servicios-de-grabacion-text25">
                       Creación
                     </h1>
-                    <span className="otros-servicios-de-grabacion-text28">
+                    <span className="otros-servicios-de-grabacion-text26">
                       <span>
                         Una vez esta claro el estilo musical, definimos la letra
                         y la estructura de la canción para que funcione con el
@@ -115,13 +114,13 @@ const OtrosServiciosDeGrabacion = (props) => {
                 </div>
                 <div className="otros-servicios-de-grabacion-container6">
                   <div className="step otros-servicios-de-grabacion-step2">
-                    <h1 className="otros-servicios-de-grabacion-text31">
+                    <h1 className="otros-servicios-de-grabacion-text29">
                       <span>3</span>
                     </h1>
-                    <h1 className="otros-servicios-de-grabacion-text33">
+                    <h1 className="otros-servicios-de-grabacion-text31">
                       Grabación
                     </h1>
-                    <span className="otros-servicios-de-grabacion-text34">
+                    <span className="otros-servicios-de-grabacion-text32">
                       <span>
                         Grabamos todos los instrumentos uno a uno. Puedes estar
                         presente en todo el proceso de grabación y ser parte de
@@ -132,13 +131,13 @@ const OtrosServiciosDeGrabacion = (props) => {
                     </span>
                   </div>
                   <div className="step otros-servicios-de-grabacion-step3">
-                    <h1 className="otros-servicios-de-grabacion-text37">
+                    <h1 className="otros-servicios-de-grabacion-text35">
                       <span>4</span>
                     </h1>
-                    <h1 className="otros-servicios-de-grabacion-text39">
+                    <h1 className="otros-servicios-de-grabacion-text37">
                       Finalización
                     </h1>
-                    <span className="otros-servicios-de-grabacion-text40">
+                    <span className="otros-servicios-de-grabacion-text38">
                       <span>
                         Una vez grabado todo se hacen los retoques finales al
                         tema. Se exporta la mezcla final y se hace la
@@ -151,10 +150,10 @@ const OtrosServiciosDeGrabacion = (props) => {
               </div>
             </div>
             <div className="otros-servicios-de-grabacion-features1">
-              <h2 className="otros-servicios-de-grabacion-text43 SubTitle">
+              <h2 className="otros-servicios-de-grabacion-text41 SubTitle">
                 Locuciones
               </h2>
-              <span className="otros-servicios-de-grabacion-text44">
+              <span className="otros-servicios-de-grabacion-text42">
                 Nos encargamos de todo tipo de Cuñas publicitarias, jingles,
                 logos sonoros, doblaje, voces en off, traducciones, etc.
                 Disponemos de una amplia red de locutores en diferentes idiomas
@@ -200,7 +199,9 @@ const OtrosServiciosDeGrabacion = (props) => {
             padding-bottom: 0px;
             justify-content: flex-start;
           }
-          .otros-servicios-de-grabacion-text {
+          .otros-servicios-de-grabacion-heading {
+            height: fit-content;
+            max-width: 100%;
             text-align: center;
           }
           .otros-servicios-de-grabacion-features {
@@ -211,10 +212,10 @@ const OtrosServiciosDeGrabacion = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             flex-direction: column;
           }
-          .otros-servicios-de-grabacion-text04 {
+          .otros-servicios-de-grabacion-text02 {
             margin-bottom: 0px;
           }
-          .otros-servicios-de-grabacion-text05 {
+          .otros-servicios-de-grabacion-text03 {
             text-align: justify;
           }
           .otros-servicios-de-grabacion-container3 {
@@ -231,7 +232,7 @@ const OtrosServiciosDeGrabacion = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .otros-servicios-de-grabacion-text18 {
+          .otros-servicios-de-grabacion-text16 {
             color: var(--dl-color-gray-black);
             font-size: 2.5rem;
             margin-bottom: var(--dl-space-space-unit);
@@ -247,35 +248,35 @@ const OtrosServiciosDeGrabacion = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .otros-servicios-de-grabacion-text19 {
+          .otros-servicios-de-grabacion-text17 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .otros-servicios-de-grabacion-text21 {
+          .otros-servicios-de-grabacion-text19 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .otros-servicios-de-grabacion-text22 {
+          .otros-servicios-de-grabacion-text20 {
             color: var(--dl-color-gray-500);
             font-size: 0.75rem;
             margin-top: var(--dl-space-space-oneandhalfunits);
             text-align: justify;
           }
-          .otros-servicios-de-grabacion-text25 {
+          .otros-servicios-de-grabacion-text23 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .otros-servicios-de-grabacion-text27 {
+          .otros-servicios-de-grabacion-text25 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .otros-servicios-de-grabacion-text28 {
+          .otros-servicios-de-grabacion-text26 {
             color: var(--dl-color-gray-500);
             font-size: 0.75rem;
             margin-top: var(--dl-space-space-oneandhalfunits);
@@ -287,35 +288,35 @@ const OtrosServiciosDeGrabacion = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .otros-servicios-de-grabacion-text31 {
+          .otros-servicios-de-grabacion-text29 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .otros-servicios-de-grabacion-text33 {
+          .otros-servicios-de-grabacion-text31 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .otros-servicios-de-grabacion-text34 {
+          .otros-servicios-de-grabacion-text32 {
             color: var(--dl-color-gray-500);
             font-size: 0.75rem;
             margin-top: var(--dl-space-space-oneandhalfunits);
             text-align: justify;
           }
-          .otros-servicios-de-grabacion-text37 {
+          .otros-servicios-de-grabacion-text35 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .otros-servicios-de-grabacion-text39 {
+          .otros-servicios-de-grabacion-text37 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .otros-servicios-de-grabacion-text40 {
+          .otros-servicios-de-grabacion-text38 {
             color: var(--dl-color-gray-500);
             font-size: 0.75rem;
             margin-top: var(--dl-space-space-oneandhalfunits);
@@ -329,7 +330,7 @@ const OtrosServiciosDeGrabacion = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             flex-direction: column;
           }
-          .otros-servicios-de-grabacion-text43 {
+          .otros-servicios-de-grabacion-text41 {
             margin-bottom: 0px;
           }
           .otros-servicios-de-grabacion-container7 {
@@ -339,30 +340,30 @@ const OtrosServiciosDeGrabacion = (props) => {
             grid-template-columns: 1fr 1fr;
           }
           @media (max-width: 1200px) {
-            .otros-servicios-de-grabacion-text21 {
+            .otros-servicios-de-grabacion-text19 {
               font-size: 1.15rem;
               font-weight: 500;
             }
-            .otros-servicios-de-grabacion-text27 {
+            .otros-servicios-de-grabacion-text25 {
               font-size: 1.15rem;
               align-self: center;
               text-align: center;
               font-weight: 500;
             }
-            .otros-servicios-de-grabacion-text28 {
+            .otros-servicios-de-grabacion-text26 {
               color: var(--dl-color-gray-500);
               font-size: 0.75rem;
             }
-            .otros-servicios-de-grabacion-text34 {
+            .otros-servicios-de-grabacion-text32 {
               color: var(--dl-color-gray-500);
               font-size: 0.75rem;
             }
-            .otros-servicios-de-grabacion-text39 {
+            .otros-servicios-de-grabacion-text37 {
               font-size: 1.15rem;
               text-align: center;
               font-weight: 500;
             }
-            .otros-servicios-de-grabacion-text40 {
+            .otros-servicios-de-grabacion-text38 {
               color: var(--dl-color-gray-500);
               font-size: 0.75rem;
             }
@@ -371,37 +372,37 @@ const OtrosServiciosDeGrabacion = (props) => {
             .otros-servicios-de-grabacion-container2 {
               width: 100%;
             }
-            .otros-servicios-de-grabacion-text05 {
+            .otros-servicios-de-grabacion-text03 {
               text-align: justify;
             }
-            .otros-servicios-de-grabacion-text18 {
+            .otros-servicios-de-grabacion-text16 {
+              text-align: center;
+            }
+            .otros-servicios-de-grabacion-text17 {
               text-align: center;
             }
             .otros-servicios-de-grabacion-text19 {
               text-align: center;
             }
-            .otros-servicios-de-grabacion-text21 {
+            .otros-servicios-de-grabacion-text23 {
               text-align: center;
             }
             .otros-servicios-de-grabacion-text25 {
               text-align: center;
             }
-            .otros-servicios-de-grabacion-text27 {
+            .otros-servicios-de-grabacion-text29 {
               text-align: center;
             }
             .otros-servicios-de-grabacion-text31 {
               text-align: center;
             }
-            .otros-servicios-de-grabacion-text33 {
+            .otros-servicios-de-grabacion-text35 {
               text-align: center;
             }
             .otros-servicios-de-grabacion-text37 {
               text-align: center;
             }
-            .otros-servicios-de-grabacion-text39 {
-              text-align: center;
-            }
-            .otros-servicios-de-grabacion-text44 {
+            .otros-servicios-de-grabacion-text42 {
               text-align: justify;
             }
           }
@@ -447,7 +448,8 @@ const OtrosServiciosDeGrabacion = (props) => {
             .otros-servicios-de-grabacion-container2 {
               align-items: center;
             }
-            .otros-servicios-de-grabacion-text {
+            .otros-servicios-de-grabacion-heading {
+              max-width: 100%;
               text-align: center;
             }
             .otros-servicios-de-grabacion-features {
@@ -456,7 +458,7 @@ const OtrosServiciosDeGrabacion = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .otros-servicios-de-grabacion-text05 {
+            .otros-servicios-de-grabacion-text03 {
               text-align: justify;
             }
             .otros-servicios-de-grabacion-steps {
@@ -468,10 +470,10 @@ const OtrosServiciosDeGrabacion = (props) => {
             .otros-servicios-de-grabacion-container5 {
               flex-direction: column;
             }
-            .otros-servicios-de-grabacion-text22 {
+            .otros-servicios-de-grabacion-text20 {
               color: var(--dl-color-gray-500);
             }
-            .otros-servicios-de-grabacion-text28 {
+            .otros-servicios-de-grabacion-text26 {
               color: var(--dl-color-gray-500);
               font-size: 0.75rem;
             }
