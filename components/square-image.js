@@ -37,6 +37,12 @@ const SquareImage = (props) => {
           .square-image-root-class-name4 {
             opacity: 0.5;
           }
+
+          @media (max-width: 479px) {
+            .square-image-text {
+              font-family: Verdana;
+            }
+          }
         `}
       </style>
     </>
