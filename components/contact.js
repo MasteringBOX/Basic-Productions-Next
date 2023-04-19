@@ -7,7 +7,7 @@ const Contact = (props) => {
     <>
       <div id="contact" className={`contact-contact ${props.rootClassName} `}>
         <div className="contact-container">
-          <h2 className="contact-text Section-Heading">{props.heading1}</h2>
+          <h2 className="contact-text PageHeading">{props.heading1}</h2>
           <div className="contact-container1">
             <form
               action="https://formsubmit.co/info@basicproductions.es"
@@ -55,19 +55,21 @@ const Contact = (props) => {
                 placeholder={props.messagePlaceHolder}
                 className="textarea"
               ></textarea>
-              <button type="submit" className="contact-cta-btn Anchor button">
+              <button type="submit" className="contact-cta-btn">
                 {props.Cta_btn}
               </button>
             </form>
             <div className="contact-content-container">
               <div className="contact-locations-container">
                 <div className="contact-location-1">
-                  <span className="contact-heading">{props.Heading}</span>
+                  <span className="contact-heading SubTitle">
+                    {props.Heading}
+                  </span>
                   <div className="contact-adress">
                     <svg viewBox="0 0 1024 1024" className="contact-icon">
                       <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
                     </svg>
-                    <span className="Content">{props.text}</span>
+                    <span className="contact-text1">{props.text}</span>
                   </div>
                   <div className="contact-email">
                     <svg viewBox="0 0 1024 1024" className="contact-icon2">
@@ -154,12 +156,18 @@ const Contact = (props) => {
           .contact-cta-btn {
             color: var(--dl-color-gray-white);
             cursor: pointer;
+            font-size: 18px;
             align-self: stretch;
+            font-style: normal;
             text-align: center;
+            font-weight: 700;
+            line-height: 1.55;
             padding-top: var(--dl-space-space-doubleunit);
             border-width: 0px;
             border-radius: 34px;
             padding-bottom: var(--dl-space-space-doubleunit);
+            text-transform: capitalize;
+            text-decoration: none;
             background-color: #2b2b2b;
           }
           .contact-content-container {
@@ -185,10 +193,7 @@ const Contact = (props) => {
             flex-direction: column;
           }
           .contact-heading {
-            font-size: 24px;
             font-style: normal;
-            font-family: Roboto;
-            font-weight: 700;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
           .contact-adress {
@@ -201,6 +206,14 @@ const Contact = (props) => {
             width: 24px;
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
+          }
+          .contact-text1 {
+            font-size: 16px;
+            font-family: Tahoma;
+            font-weight: 400;
+            line-height: 1.3;
+            text-transform: none;
+            text-decoration: none;
           }
           .contact-email {
             display: flex;
@@ -275,10 +288,6 @@ const Contact = (props) => {
               padding-left: var(--dl-space-space-unit);
               border-radius: var(--dl-radius-radius-radius4);
               padding-bottom: var(--dl-space-space-unit);
-            }
-            .contact-cta-btn {
-              width: 100%;
-              align-self: center;
             }
             .contact-content-container {
               width: 100%;
