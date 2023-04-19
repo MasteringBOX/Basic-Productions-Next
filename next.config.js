@@ -3,12 +3,12 @@ module.exports = {
         return [
             {
                 source: '/contactoestudiodegrabacion.html',
-                destination: '/contacto',
+                destination: '/contacto-estudio',
                 permanent: true,
             },
             {
                 source: '/discografica.html',
-                destination: '/grabado-en-nuestro-estudio-de-grabacion',
+                destination: '/grabado-en-nuestro-estudio',
                 permanent: true,
             },
             {
@@ -33,12 +33,12 @@ module.exports = {
             },
             {
                 source: '/locuciones.html',
-                destination: '/mas-servicios-de-grabacion',
+                destination: '/otros-servicios-de-grabacion',
                 permanent: true,
             },
             {
                 source: '/otrosservicios.html',
-                destination: '/mas-servicios-de-grabacion',
+                destination: '/otros-servicios-de-grabacion',
                 permanent: true,
             },
 
