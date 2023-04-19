@@ -3,6 +3,7 @@ import {useEffect} from "react";
 import SongTest from "./SongTest";
 
 const AudioPlayer = () => {
+
     const songs = [
         {
             "name": "Carreteras",
@@ -10,7 +11,55 @@ const AudioPlayer = () => {
             "album": "Carreteras",
             "url": "/audio/carreteras.mp3",
             "cover_art_url": "/img/carreteras.jpg",
-            "duration": "3:23"
+            "duration": "3:42"
+        },
+        {
+            "name": "Superstar",
+            "artist": "Adriana Moraru",
+            "album": "Superstar",
+            "url": "/audio/superstar.mp3",
+            "cover_art_url": "/img/adriana.jpg",
+            "duration": "3:02"
+        },
+        {
+            "name": "Pronunciarte",
+            "artist": "Laura Beltran",
+            "album": "Pronunciarte",
+            "url": "/audio/pronunciarte.mp3",
+            "cover_art_url": "/playground_assets/basicproductionslogo.jpg",
+            "duration": "2:41"
+        },
+        {
+            "name": "Silence in Hell",
+            "artist": "The Original Yellows",
+            "album": "Unbalanced Equation",
+            "url": "/audio/silence_in_hell.mp3",
+            "cover_art_url": "/img/unbalanced_equation.jpg",
+            "duration": "4:04"
+        },
+        {
+            "name": "Sola",
+            "artist": "Dídac Corbí",
+            "album": "Caminos",
+            "url": "/audio/sola.mp3",
+            "cover_art_url": "/img/caminos.jpg",
+            "duration": "3:18"
+        },
+        {
+            "name": "Todos Somos Igual",
+            "artist": "Estados de Ánimo",
+            "album": "Pasatiempos",
+            "url": "/audio/todos_somos_igual.mp3",
+            "cover_art_url": "/img/pasatiempos.jpeg",
+            "duration": "3:57"
+        },
+        {
+            "name": "Perdóname",
+            "artist": "Adriana Moraru",
+            "album": "Perdóname",
+            "url": "/audio/perdoname.mp3",
+            "cover_art_url": "/img/adriana.jpg",
+            "duration": "3:07"
         },
         {
             "name": "No me quiero ir",
@@ -18,7 +67,7 @@ const AudioPlayer = () => {
             "album": "Carreteras",
             "url": "/audio/no_me_quiero_ir.mp3",
             "cover_art_url": "/img/carreteras.jpg",
-            "duration": "3:12"
+            "duration": "3:04"
         },
         {
             "name": "3 Million Truckers",
@@ -26,7 +75,39 @@ const AudioPlayer = () => {
             "album": "3 Million Truckers",
             "url": "/audio/3_Million_Truckers.mp3",
             "cover_art_url": "/img/truck.jpg",
-            "duration": "3:12"
+            "duration": "3:50"
+        },
+        {
+            "name": "Nadie como Tú",
+            "artist": "Jaime Arlandis",
+            "album": "Nadie como Tú",
+            "url": "/audio/nadie_como_tu.mp3",
+            "cover_art_url": "/img/jaime_arlandis.jpeg",
+            "duration": "4:04"
+        },
+        {
+            "name": "Caminos",
+            "artist": "Dídac Corbí",
+            "album": "Caminos",
+            "url": "/audio/caminos.mp3",
+            "cover_art_url": "/img/caminos.jpg",
+            "duration": "2:40"
+        },
+        {
+            "name": "Superficial",
+            "artist": "Estados de Ánimo",
+            "album": "¡Estado Neurótico!",
+            "url": "/audio/superficial.mp3",
+            "cover_art_url": "/img/estadoneurotico.jpeg",
+            "duration": "3:57"
+        },
+        {
+            "name": "Elementos",
+            "artist": "Mayka Malo",
+            "album": "Elementos",
+            "url": "/audio/elementos.mp3",
+            "cover_art_url": "/playground_assets/basicproductionslogo.jpg",
+            "duration": "4:03"
         },
     ];
 
@@ -89,6 +170,7 @@ const AudioPlayer = () => {
                     waveforms: {
                         sample_rate: 50,
                     },
+                    volume: 99,
                 });
             };
 
