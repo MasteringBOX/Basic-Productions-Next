@@ -8,7 +8,7 @@ import SquareImage from './square-image'
 const ContactSquare = (props) => {
   return (
     <>
-      <Link href="/contacto">
+      <Link href="/contacto-estudio">
         <a>
           <div
             className={`contact-square-container subContainerContent ${props.rootClassName} `}

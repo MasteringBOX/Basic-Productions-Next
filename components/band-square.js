@@ -7,7 +7,7 @@ import SquareImage from './square-image'
 
 const BandSquare = (props) => {
   return (
-    <Link href="/grupos">
+    <Link href="/grabaciones-para-grupos">
       <a>
         <div className="subContainerContent">
           <SquareImage
