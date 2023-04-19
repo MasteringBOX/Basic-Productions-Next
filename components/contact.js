@@ -20,6 +20,10 @@ const Contact = (props) => {
                 name="nombre"
                 placeholder={props.textinput_placeholder11}
                 className="input"
+                required
+                onInvalid={(e) => { e.target.setCustomValidity('Introduce tu nombre') }}
+                onChange={(e) => { e.target.setCustomValidity('') }}
+
               />
               <input
                 type="hidden"
@@ -35,6 +39,9 @@ const Contact = (props) => {
                 required
                 placeholder={props.email}
                 className="input"
+                onInvalid={(e) => { e.target.setCustomValidity('Introduce tu email') }}
+                onChange={(e) => { e.target.setCustomValidity('') }}
+
               />
               <select
                 name="Seleccion"
@@ -54,6 +61,10 @@ const Contact = (props) => {
                 name="mensaje"
                 placeholder={props.messagePlaceHolder}
                 className="textarea"
+                required
+                onInvalid={(e) => { e.target.setCustomValidity('Déjanos un mensaje') }}
+                onChange={(e) => { e.target.setCustomValidity('') }}
+
               ></textarea>
               <button type="submit" className="contact-cta-btn">
                 {props.Cta_btn}
