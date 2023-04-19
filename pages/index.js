@@ -12,7 +12,7 @@ const Home = (props) => {
           <title>Basic Productions</title>
           <meta property="og:title" content="Basic Productions" />
         </Head>
-        <div className="mainContainer">
+        <div className="mainContainer home-container1">
           <TopImageRow rootClassName="top-image-row-root-class-name"></TopImageRow>
           <BottomImageRow rootClassName="bottom-image-row-root-class-name"></BottomImageRow>
         </div>
@@ -27,6 +27,17 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
             justify-content: flex-start;
+          }
+          @media (max-width: 767px) {
+            .home-container1 {
+              height: auto;
+              min-height: 100vh;
+            }
+          }
+          @media (max-width: 479px) {
+            .home-container1 {
+              height: auto;
+            }
           }
         `}
       </style>

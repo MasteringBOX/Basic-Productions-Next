@@ -241,6 +241,11 @@ const Contact = (props) => {
           .contact-root-class-name1 {
             max-width: auto;
           }
+          @media (max-width: 1200px) {
+            .contact-root-class-name1 {
+              background-image: 6e6eac2b-eaa1-4883-b9f2-ba055ccd4883;
+            }
+          }
           @media (max-width: 991px) {
             .contact-contact {
               flex-direction: row;
