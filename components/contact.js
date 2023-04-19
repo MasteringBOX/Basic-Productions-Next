@@ -12,7 +12,7 @@ const Contact = (props) => {
             <form
               action="https://formsubmit.co/info@basicproductions.es"
               method="POST"
-              enctype="application/x-www-form-urlencoded"
+              encType="application/x-www-form-urlencoded"
               className="contact-form"
             >
               <input
@@ -25,14 +25,13 @@ const Contact = (props) => {
                 type="hidden"
                 id="_next"
                 name="_next"
-                value="https://www.basicproductions.es/"
+                value="https://www.basicproductions.es/contacto-estudio/?p=gracias"
                 placeholder={props.textinput_placeholder}
                 className="input"
               />
               <input
                 type="text"
                 name="email"
-                multiple="email"
                 required
                 placeholder={props.email}
                 className="input"
@@ -41,8 +40,9 @@ const Contact = (props) => {
                 name="Seleccion"
                 type="seleccion"
                 className="contact-select"
+                defaultValue="preguntas"
               >
-                <option value="preguntas" selected>
+                <option value="preguntas">
                   Tengo una pregunta sobre vuestro servicio
                 </option>
                 <option value="reserva">
