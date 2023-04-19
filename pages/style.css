@@ -128,7 +128,7 @@
   opacity: 0;
   z-index: 100;
   position: absolute;
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: center;
   transition: 0.3s;
   font-weight: 400;
@@ -216,7 +216,7 @@
 }
 @media(max-width: 1200px) {
   .imageTitle {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   .content {
     width: 100%;
@@ -232,7 +232,7 @@
   }
   .imageTitle {
     opacity: 1;
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
 }
 @media(max-width: 767px) {
@@ -240,7 +240,7 @@
     padding: 10px;
   }
   .imageTitle {
-    font-size: 0.4em;
+    font-size: 0.5em;
   }
   .step {
     padding: var(--dl-space-space-unit);
