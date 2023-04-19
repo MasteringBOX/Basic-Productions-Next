@@ -10,10 +10,10 @@ const ContactoEstudio = (props) => {
     <>
       <div className="contacto-estudio-container">
         <Head>
-          <title>Contacto-Estudio - Basic Productions</title>
+          <title>Contacta con el Estudio - Basic Productions</title>
           <meta
             property="og:title"
-            content="Contacto-Estudio - Basic Productions"
+            content="Contacta con el Estudio - Basic Productions"
           />
         </Head>
         <div className="contacto-estudio-container1 mainContainer">

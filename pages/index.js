@@ -9,7 +9,7 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Basic Productions</title>
+          <title>Basic Productions - Estudio de Grabación en Valencia</title>
           <meta property="og:title" content="Basic Productions" />
         </Head>
         <div className="mainContainer">

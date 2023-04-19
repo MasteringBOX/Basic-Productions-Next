@@ -8,7 +8,16 @@ class CustomDocument extends Document {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           ></meta>
+          <meta
+              name="description"
+              content="Estudio de Grabacion en Valencia. Grabacion a Grupos, cantautores, músicos, cantantes, raperos, etc."
+          />
           <meta charSet="utf-8"></meta>
+            <link
+                rel="icon"
+                type="image/png"
+                href="/img/favicon.png"
+            />
           <meta property="twitter:card" content="summary_large_image"></meta>
             <style
             dangerouslySetInnerHTML={{
