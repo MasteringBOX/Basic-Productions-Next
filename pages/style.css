@@ -216,7 +216,7 @@
 }
 @media(max-width: 1200px) {
   .imageTitle {
-    font-size: 1em;
+    font-size: 0.9em;
   }
   .content {
     width: 100%;
@@ -232,7 +232,7 @@
   }
   .imageTitle {
     opacity: 1;
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
 }
 @media(max-width: 767px) {
@@ -240,7 +240,7 @@
     padding: 10px;
   }
   .imageTitle {
-    font-size: 0.6em;
+    font-size: 0.4em;
   }
   .step {
     padding: var(--dl-space-space-unit);
@@ -258,7 +258,7 @@
     justify-content: flex-start;
   }
   .imageTitle {
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
   .subContainerContent {
     width: 50%;
