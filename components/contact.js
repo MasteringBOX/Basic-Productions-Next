@@ -25,7 +25,7 @@ const Contact = (props) => {
                 type="hidden"
                 id="_next"
                 name="_next"
-                value="https://kampi.teleporthq.app/#thankyou"
+                value="https://www.basicproductions.es/"
                 placeholder={props.textinput_placeholder}
                 className="input"
               />
