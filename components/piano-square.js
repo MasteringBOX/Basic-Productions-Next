@@ -8,7 +8,7 @@ import SquareImage from './square-image'
 const PianoSquare = (props) => {
   return (
     <>
-      <Link href="/otros-servicios-de-grabacin">
+      <Link href="/otros-servicios-de-grabacion">
         <a>
           <div
             className={`piano-square-container subContainerContent ${props.rootClassName} `}

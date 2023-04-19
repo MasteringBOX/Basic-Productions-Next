@@ -10,10 +10,10 @@ const ProduccionMusicalParaCantantes = (props) => {
     <>
       <div className="produccion-musical-para-cantantes-container">
         <Head>
-          <title>produccion-musical-para-cantantes - Basic Productions</title>
+          <title>Produccion-Musical-para-Cantantes - Basic Productions</title>
           <meta
             property="og:title"
-            content="produccion-musical-para-cantantes - Basic Productions"
+            content="Produccion-Musical-para-Cantantes - Basic Productions"
           />
         </Head>
         <div className="produccion-musical-para-cantantes-container1 mainContainer">
