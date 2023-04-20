@@ -17,9 +17,13 @@ div#amplitude-player {
     div#amplitude-player {
         flex-direction: column; } }
 /* Medium only */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+@media screen and (min-width: 40em) and (max-width: 991px) {
     div#amplitude-player {
-        max-height: 715px; } }
+        max-height: 650px; }
+    div#amplitude-right {
+        overflow-y: scroll;
+    }
+}
 /* Large and up */
 @media screen and (min-width: 64em) {
     div#amplitude-player {
@@ -50,7 +54,6 @@ div#amplitude-left div#player-left-bottom div#volume-container:after {
         height: auto; } }
 div#amplitude-right {
     padding: 0px;
-    overflow-y: scroll;
     width: 50%;
     display: flex;
     flex-direction: column; }
